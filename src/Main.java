@@ -6,6 +6,10 @@ public class Main {
         System.out.println("rectangle.width= " + rectangle.getWidth());
         System.out.println("rectangle.length= " + rectangle.getLength());
         System.out.println("rectangle.area= " + rectangle.getArea());
+        Rectangle myRec = new Rectangle(10, 20);
+        System.out.println("rectangle.width= " + myRec.getWidth());
+        System.out.println("rectangle.length= " + myRec.getLength());
+        System.out.println("rectangle.area= " + myRec.getArea());
         Cuboid cuboid = new Cuboid(5,10,5);
         System.out.println("cuboid.width= " + cuboid.getWidth());
         System.out.println("cuboid.length= " + cuboid.getLength());
